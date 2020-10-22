@@ -2,23 +2,18 @@ import React, { Component } from "react";
 import "../index.css";
 
 class App extends Component {
-  state = {
-    searchResults:[]
-  };
-  handleClearCompleted = event => {
-    const myCopy = this.state.todos.slice();
-    const modifiedCopy = myCopy.filter(element => element.completed === false);
-    this.setState({ todos: modifiedCopy });
-  };
+  constructor(props){
+    super(props);
+    this.state = {
+      searchResults:[]
+    };
+  }
+  
   handleInput = event => {
     if (event.key === "Enter") {
       const searchValue= event.target.value;
       fetch("https://api.github.com/search/repositories?q="+searchValue+"language:node.js&sort=stars&order=desc").then
-      (res=>{return res.json()}).then(response=>console.log(response));
-      //todoItem["completed"] = false;
-      //const todoListCopy = this.state.todos.slice();
-      //todoListCopy.push(todoItem);
-      //this.setState({ todos: todoListCopy });
+      (res=>{return res.json()}).then(data=>this.setState({searchResults:data.items}));
       event.target.value = "";
     }
   };
@@ -31,10 +26,14 @@ class App extends Component {
           <input
             placeholder="Search"
             autofocus
-            onKeyDown={this.handleInput}
+            onKeyDown={event=>this.handleInput(event)}
           />
-        </header>      
-  
+        </header>    
+        <div>
+          {
+            this.state.searchResults.map(el=>{return <div class="jumbotron"><a>{el.downloads_url}</a></div>})
+          }
+        </div>
       </section>
     );
   }

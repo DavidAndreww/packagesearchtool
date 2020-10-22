@@ -1,2 +1,53 @@
 [1015/010245.739:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
 [1015/010245.740:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1015/083934.221:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1015/083934.222:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1015/084140.773:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1015/084140.773:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1015/084418.701:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1015/084418.702:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1015/085418.704:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1015/085418.704:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1015/085418.704:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/085418.704:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1015/085418.704:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1015/085418.704:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1015/085418.704:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1021/080753.464:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1021/080753.465:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1022/022540.008:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1022/022540.009:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1022/023100.865:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1022/023100.865:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1022/023540.011:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1022/023540.011:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1022/023540.011:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1022/023540.011:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1022/023540.011:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1022/023540.011:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1022/023540.011:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1022/023754.017:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1022/023754.017:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1022/024754.020:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1022/024754.020:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1022/024754.020:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1022/024754.020:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1022/024754.020:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1022/024754.020:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1022/024754.020:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1022/025254.022:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1022/025254.022:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1022/030754.026:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1022/030754.026:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1022/033231.153:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1022/033231.153:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1022/034731.153:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1022/034731.154:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1022/040231.154:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1022/040231.154:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1022/041731.154:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1022/041731.154:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1022/041930.714:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1022/041930.715:ERROR:crash_report_database_win.cc(476)] failed to read records
+[1022/045327.103:ERROR:file_io.cc(90)] ReadExactly: expected 112, observed 0
+[1022/045327.103:ERROR:crash_report_database_win.cc(476)] failed to read records
